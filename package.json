@@ -1,0 +1,19 @@
+{
+  "name": "grandma3-tstl-plugin",
+  "version": "0.0.1",
+  "description": "a TypeScriptToLua plugin that allows for direct export to grandMA3 compatible Lua files",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LightYourWay/grandMA3-tstl-plugin.git"
+  },
+  "author": "Lukas Runge",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LightYourWay/grandMA3-tstl-plugin/issues"
+  },
+  "homepage": "https://github.com/LightYourWay/grandMA3-tstl-plugin#readme",
+  "devDependencies": {
+    "typescript-to-lua": "^0.36.1"
+  }
+}
