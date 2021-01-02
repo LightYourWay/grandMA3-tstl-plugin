@@ -2,7 +2,17 @@
 	"name": "grandma3-tstl-plugin",
 	"version": "0.0.1",
 	"description": "a TypeScriptToLua plugin that allows for direct export to grandMA3 compatible Lua files",
-  "scripts": {},
+	"scripts": {
+		"lint:check": "prettier --check **/*.{ts,tsx}",
+		"lint:fix": "prettier --write **/*.{ts,tsx}"
+	},
+	"prettier": {
+		"printWidth": 100,
+		"proseWrap": "never",
+		"singleQuote": true,
+		"trailingComma": "all",
+		"useTabs": true
+	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/LightYourWay/grandMA3-tstl-plugin.git"
