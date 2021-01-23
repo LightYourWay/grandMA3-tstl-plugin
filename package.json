@@ -1,6 +1,6 @@
 {
 	"name": "grandma3-tstl-plugin",
-	"version": "0.2.1",
+	"version": "0.2.2",
 	"description": "a TypeScriptToLua plugin that allows for direct export to grandMA3 compatible Lua files",
 	"main": "dist/main.js",
 	"types": "dist/main.d.ts",
