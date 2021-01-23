@@ -4,8 +4,8 @@
 	"description": "a TypeScriptToLua plugin that allows for direct export to grandMA3 compatible Lua files",
 	"main": "dist/main.js",
 	"types": "dist/main.d.ts",
-	"prepublish": "tsc",
 	"scripts": {
+		"prepare": "tsc",
 		"build": "tsc",
 		"dev": "tsc --watch",
 		"lint:check": "prettier --check **/*.{ts,tsx}",
