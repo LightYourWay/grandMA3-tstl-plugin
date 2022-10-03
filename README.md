@@ -1,7 +1,13 @@
 # grandMA3 TypeScriptToLua Plugin
 a TypeScriptToLua plugin that allows for direct export to grandMA3 compatible Lua files
 
-## install
+
+## install for production
+```bash
+npm install -D grandMA3-tstl-plugin
+```
+
+## install for development
 ```bash
 git clone https://github.com/LightYourWay/grandMA3-tstl-plugin.git && \
 cd <your-plugin-folder> && \
