@@ -13,7 +13,7 @@ npm link ../grandMA3-tstl-plugin
 {
     "tstl": {
         "luaPlugins": [
-            { "name": "grandMA3-tstl-plugin/fix_export.ts" }
+            { "name": "grandMA3-tstl-plugin" }
         ]
     }
 }
