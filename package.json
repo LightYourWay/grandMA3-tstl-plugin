@@ -29,7 +29,7 @@
 	},
 	"homepage": "https://github.com/LightYourWay/grandMA3-tstl-plugin#readme",
 	"devDependencies": {
-		"prettier": "^2.2.1",
-		"typescript-to-lua": "^0.37.1"
+		"prettier": "^2.7.1",
+		"typescript-to-lua": "^1.10.1"
 	}
 }
