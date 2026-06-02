@@ -8,15 +8,8 @@
 		"prepare": "tsc",
 		"build": "tsc",
 		"dev": "tsc --watch",
-		"lint:check": "prettier --check **/*.{ts,tsx}",
-		"lint:fix": "prettier --write **/*.{ts,tsx}"
-	},
-	"prettier": {
-		"printWidth": 100,
-		"proseWrap": "never",
-		"singleQuote": true,
-		"trailingComma": "all",
-		"useTabs": true
+		"lint:check": "prettier --check .",
+		"lint:fix": "prettier --write ."
 	},
 	"repository": {
 		"type": "git",
