@@ -70,3 +70,9 @@ end
 
 return Main, Cleanup, Execute
 ```
+
+## license
+
+Copyright (c) 2026 Lukas Runge Veranstaltungstechnik
+
+This project is licensed under the GNU Lesser General Public License v3.0 (LGPL-3.0-only). See [COPYING.LESSER](COPYING.LESSER) and [COPYING](COPYING) for the full license texts.
