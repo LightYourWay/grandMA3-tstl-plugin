@@ -32,8 +32,7 @@ end
 function deriveXmlPath(bundleDir: string): string {
 	const normalized = bundleDir.replace(/\\/g, '/');
 	const inMAStructure = normalized.includes('MALightingTechnology');
-	const inPluginsFolder =
-		normalized.includes('plugins') || normalized.includes('lib_plugins');
+	const inPluginsFolder = normalized.includes('plugins') || normalized.includes('lib_plugins');
 	if (inMAStructure && inPluginsFolder) {
 		return normalized.replace(/.+?(?:\/plugins|\/lib_plugins)(.+)/g, '$1');
 	}
@@ -105,9 +104,7 @@ export default function (pluginOptions: PluginOptions): tstl.Plugin {
 				? path.join(luaBundleAbs, `${componentName}.lua`)
 				: luaBundleAbs;
 
-			const bundle = result.find(
-				(f) => path.resolve(consumerRoot, f.outputPath) === luaBundleAbs,
-			);
+			const bundle = result.find((f) => path.resolve(consumerRoot, f.outputPath) === luaBundleAbs);
 			if (!bundle) return;
 
 			if (treatAsDirectory) {
@@ -122,10 +119,7 @@ export default function (pluginOptions: PluginOptions): tstl.Plugin {
 					const license = fs
 						.readFileSync(licensePath, 'utf8')
 						.split(/\r?\n/)
-						.map(
-							(line) =>
-								`-- ${line.replace('[year]', year).replace('[fullname]', pkg.author)}`,
-						)
+						.map((line) => `-- ${line.replace('[year]', year).replace('[fullname]', pkg.author)}`)
 						.join('\n');
 					bundle.code = `${license}\n${bundle.code}`;
 				}
